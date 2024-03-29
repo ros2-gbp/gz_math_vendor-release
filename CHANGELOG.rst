@@ -2,6 +2,11 @@
 Changelog for package gz_math_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2024-03-29)
+------------------
+* Disable SWIG to fix CMake warning
+* Contributors: Addisu Z. Taddese
+
 0.0.2 (2024-03-28)
 ------------------
 * Disable pybind11 for now
