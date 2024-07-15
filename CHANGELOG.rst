@@ -2,6 +2,11 @@
 Changelog for package gz_math_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.6 (2024-07-15)
+------------------
+* Update vendored package version to 7.5.0
+* Contributors: Addisu Z. Taddese
+
 0.0.5 (2024-04-25)
 ------------------
 * Use an alias target for root library
