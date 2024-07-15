@@ -4,7 +4,7 @@ project(gz_math_vendor)
 
 # Project-specific settings
 set(LIB_VER_MAJOR 7)
-set(LIB_VER_MINOR 4)
+set(LIB_VER_MINOR 5)
 set(LIB_VER_PATCH 0)
 
 # Derived variables
