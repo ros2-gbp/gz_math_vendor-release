@@ -1,0 +1,55 @@
+ros-jazzy-gz-math-vendor (0.0.8-1noble) noble; urgency=high
+
+  * Bump version to 7.5.2 (#9 <https://github.com/gazebo-release/gz_math_vendor/issues/9>)
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 05 Feb 2025 06:00:00 -0000
+
+ros-jazzy-gz-math-vendor (0.0.7-1noble) noble; urgency=high
+
+  * Bump version to 7.5.1 (#6 <https://github.com/gazebo-release/gz_math_vendor/issues/6>)
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 12 Nov 2024 06:00:00 -0000
+
+ros-jazzy-gz-math-vendor (0.0.6-1noble) noble; urgency=high
+
+  * Update vendored package version to 7.5.0
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 15 Jul 2024 05:00:00 -0000
+
+ros-jazzy-gz-math-vendor (0.0.5-1noble) noble; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 25 Apr 2024 05:00:00 -0000
+
+ros-jazzy-gz-math-vendor (0.0.4-1noble) noble; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 10 Apr 2024 05:00:00 -0000
+
+ros-jazzy-gz-math-vendor (0.0.3-1noble) noble; urgency=high
+
+  * Disable SWIG to fix CMake warning
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Fri, 29 Mar 2024 05:00:00 -0000
+
+ros-jazzy-gz-math-vendor (0.0.2-1noble) noble; urgency=high
+
+  * Disable pybind11 for now
+  * Require calling find_package on the underlying package (#2 <https://github.com/gazebo-release/gz_math_vendor/issues/2>)
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_math_vendor/issues/1>)
+  * Remove Nate
+  * Update maintainers
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 28 Mar 2024 05:00:00 -0000
+
+
