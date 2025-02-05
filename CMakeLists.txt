@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.10)
 project(gz_math_vendor)
 
 # Project-specific settings
-set(LIB_VER_MAJOR 8)
-set(LIB_VER_MINOR 1)
-set(LIB_VER_PATCH 0)
+set(LIB_VER_MAJOR 7)
+set(LIB_VER_MINOR 5)
+set(LIB_VER_PATCH 2)
 set(LIB_VER_SUFFIX "")
 
 # Derived variables
@@ -43,6 +43,7 @@ ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   VCS_URL https://github.com/gazebosim/${GITHUB_NAME}.git
   VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}${LIB_VER_SUFFIX}
   CMAKE_ARGS
+    -DBUILD_DOCS:BOOL=OFF
     -DSKIP_PYBIND11:BOOL=ON
     -DSKIP_SWIG:BOOL=ON
   GLOBAL_HOOK
