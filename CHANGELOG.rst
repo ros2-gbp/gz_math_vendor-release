@@ -2,22 +2,35 @@
 Changelog for package gz_math_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.8 (2025-02-05)
+0.2.3 (2025-02-19)
 ------------------
-* Bump version to 7.5.2 (`#9 <https://github.com/gazebo-release/gz_math_vendor/issues/9>`_)
+* Bump version to 8.1.1 (`#10 <https://github.com/gazebo-release/gz_math_vendor/issues/10>`_)
+* Contributors: Carlos Agüero
+
+0.2.2 (2024-12-13)
+------------------
+* Bump version to 8.1.0 (`#8 <https://github.com/gazebo-release/gz_math_vendor/issues/8>`_)
+  * This is a rerelease since #7 did not actually bump the version of the vendored package.
 * Contributors: Addisu Z. Taddese
 
-0.0.7 (2024-11-12)
+0.2.1 (2024-12-02)
 ------------------
-* Bump version to 7.5.1 (`#6 <https://github.com/gazebo-release/gz_math_vendor/issues/6>`_)
+* Bump version to 8.1.0 (`#7 <https://github.com/gazebo-release/gz_math_vendor/issues/7>`_)
+* Contributors: Michael Carroll
+
+0.2.0 (2024-09-30)
+------------------
+* Bump version to 8.0.0 (`#5 <https://github.com/gazebo-release/gz_math_vendor/issues/5>`_)
+* Apply prerelease suffix (`#4 <https://github.com/gazebo-release/gz_math_vendor/issues/4>`_)
+* Upgrade to Ionic
 * Contributors: Addisu Z. Taddese
 
-0.0.6 (2024-07-15)
+0.1.1 (2024-07-15)
 ------------------
 * Update vendored package version to 7.5.0
 * Contributors: Addisu Z. Taddese
 
-0.0.5 (2024-04-25)
+0.1.0 (2024-04-23)
 ------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
