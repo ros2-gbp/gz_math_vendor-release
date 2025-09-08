@@ -2,15 +2,33 @@
 Changelog for package gz_math_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.5 (2025-09-04)
+0.4.0 (2025-09-08)
 ------------------
-* Remove 0.3.0 from changelog
-* Contributors: Addisu Z. Taddese
+* Jetty support: bump to 9.0.0, fix package names (`#12 <https://github.com/gazebo-release/gz_math_vendor/issues/12>`_)
+  * Jetty support: bump to 9.0.0, fix package names
+  Major version numbers have been removed from package
+  names in Gazebo Jetty, so extra cmake config files are
+  no longer needed.
+  * Add option VENDOR_FROM_LIB_VCS_REF
+  This allows vendoring from a specified vcs ref instead
+  of the hard-coded tag. When this option is set to true,
+  a branch, tag, or commit can be specified in the
+  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+  vendoring will use main.
+  * remove unused cmake config file
+  * use lowercase to fix linter complaint
+  * build python bindings
+  * 9.0.0~pre1
+  ---------
+* Contributors: Steve Peters
 
-0.2.4 (2025-09-04)
+0.3.1 (2025-05-23)
 ------------------
-* Bump version to 8.2.0 (`#13 <https://github.com/gazebo-release/gz_math_vendor/issues/13>`_)
-* Contributors: Addisu Z. Taddese
+* Bump version to 8.2.0 (`#11 <https://github.com/gazebo-release/gz_math_vendor/issues/11>`_)
+* Contributors: Ian Chen, Jose Luis Rivero
+
+0.3.0 (2025-04-28)
+------------------
 
 0.2.3 (2025-02-19)
 ------------------
