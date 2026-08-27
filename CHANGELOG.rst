@@ -2,18 +2,15 @@
 Changelog for package gz_math_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.5.2 (2026-08-25)
+0.4.5 (2026-08-27)
 ------------------
-* Upgrade to Rotary prerelease (`#25 <https://github.com/gazebo-release/gz_math_vendor/issues/25>`_)
-* Contributors: Addisu Z. Taddese
+* Bump version to 9.3.0 (`#27 <https://github.com/gazebo-release/gz_math_vendor/issues/27>`_)
+* Contributors: Carlos Agüero
 
-0.5.1 (2026-07-22)
+0.4.4 (2026-07-22)
 ------------------
-* Bump version to 9.2.0 (`#23 <https://github.com/gazebo-release/gz_math_vendor/issues/23>`_)
+* Bump version to 9.2.0 (`#24 <https://github.com/gazebo-release/gz_math_vendor/issues/24>`_)
 * Contributors: Steve Peters
-
-0.5.0 (2026-05-14)
-------------------
 
 0.4.3 (2026-04-21)
 ------------------
